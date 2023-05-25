@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mps8.1", "Mps8.1\Mps8.1.csproj", "{F084E947-0A63-49F1-B63A-C4AFABD7A941}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F084E947-0A63-49F1-B63A-C4AFABD7A941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F084E947-0A63-49F1-B63A-C4AFABD7A941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F084E947-0A63-49F1-B63A-C4AFABD7A941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F084E947-0A63-49F1-B63A-C4AFABD7A941}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FF59F150-614B-4EAE-BBF3-1EEEE9DE6F96}
+	EndGlobalSection
+EndGlobal
