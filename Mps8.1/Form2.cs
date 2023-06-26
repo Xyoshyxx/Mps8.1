@@ -22,10 +22,23 @@ namespace Mps8._1
 
         }
 
-		private void button1_Click(object sender, EventArgs e)
-		{
-            this.Visible = false;
-            Form3 outra = new Form3(); outra.ShowDialog();
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "adm" && textBox2.Text == "mps1234")
+            {
+               
+                Form3 outra = new Form3(); outra.ShowDialog();
+
+                this.Visible = false;
+
+            }
+            else
+            {
+                MessageBox.Show("Login ou Senha inválidos!");
+
+            }
         }
-	}
+    }
 }
+	
+
