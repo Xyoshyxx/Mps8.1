@@ -21,5 +21,11 @@ namespace Mps8._1
         {
 
         }
-    }
+
+		private void button1_Click(object sender, EventArgs e)
+		{
+            this.Visible = false;
+            Form3 outra = new Form3(); outra.ShowDialog();
+        }
+	}
 }

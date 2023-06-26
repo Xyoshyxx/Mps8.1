@@ -30,5 +30,17 @@ namespace Mps8._1
         {
 
         }
-    }
+
+		private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+            this.Visible = false;
+            Form2 outro = new Form2(); outro.ShowDialog();
+        }
+
+		private void trocarUsuáriosToolStripMenuItem_Click(object sender, EventArgs e)
+		{
+            this.Visible = false;
+            Form2 outro = new Form2(); outro.ShowDialog();
+        }
+	}
 }
